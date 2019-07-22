@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo'
@@ -15,10 +14,9 @@ class App extends Component {
       <ApolloProvider client={client}>
         <div className="App">
           <header className="App-header">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <h2>Welcome to Keyword Management</h2>
             <CategoryList />
-            <AddCategory/>
+            <AddCategory />
           </header>
         </div>
       </ApolloProvider>

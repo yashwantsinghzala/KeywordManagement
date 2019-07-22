@@ -6,7 +6,7 @@ import {
 import { graphql, compose } from 'react-apollo';
 import { AddKeyword } from './AddKeyword';
 import { DeleteCategory } from './DeleteCategory';
-import { DeleteKeyword } from '../DeleteKeyword';
+import { DeleteKeyword } from './DeleteKeyword';
 
 
 
